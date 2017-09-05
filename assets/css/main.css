@@ -3195,8 +3195,8 @@
 
 	#footer {
 		padding: 8em 0 6em 0;
-		background: #f6f6f6;
-		color: #aaa;
+		background: #333;
+		color: #eee;
 		text-align: center;
 	}
 
@@ -3210,8 +3210,12 @@
 		}
 
 			#footer a:active, #footer a:hover {
-				color: #666;
+				color: #eee;
 			}
+
+#footer h2 { color:#eee; }
+        
+#footer h3 { font-size:0.75em; background-color:#555; color:#eee; }
 
 		#footer .icons {
 			font-size: 1.5em;
