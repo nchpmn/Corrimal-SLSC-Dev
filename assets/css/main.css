@@ -3194,8 +3194,8 @@
 /* Footer */
 
 	#footer {
-		padding: 8em 0 6em 0;
-		background: #333;
+		padding: 10em 0 6em 0;
+		background: #444;
 		color: #eee;
 		text-align: center;
 	}
@@ -3213,24 +3213,12 @@
 				color: #eee;
 			}
 
-#footer h2 { color:#eee; }
+        #footer h2 { color:#eee; }
         
-#footer h3 { font-size:0.75em; background-color:#555; color:#eee; }
-
-		#footer .icons {
-			font-size: 1.5em;
-		}
-
-			#footer .icons li {
-				padding-right: 2.5em;
-			}
-
-				#footer .icons li:last-child {
-					padding-right: 0;
-				}
+        #footer h3 { font-size:0.8em; background-color:#4f4f4f; color:#eee; }
 
 		#footer .copyright {
-			margin: 2em 0;
+			margin: 4em 0;
 			padding: 0;
 			text-align: center;
 		}
