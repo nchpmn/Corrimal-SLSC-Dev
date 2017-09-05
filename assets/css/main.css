@@ -2738,7 +2738,12 @@
 
 		.wrapper.style3 {
 			background-attachment: fixed;
-			background-image: url("images/overlay.png"), url("https://source.unsplash.com/iftBhUFfecE/1200x800");
+			background-image: 
+                linear-gradient(
+                    rgba(0, 0, 0, 0.45), 
+                    rgba(0, 0, 0, 0.45)
+                ),
+                url("https://source.unsplash.com/iftBhUFfecE/1200x800");
 			background-position: center center;
 			background-size: cover;
 		}
@@ -3093,7 +3098,12 @@
 	#banner {
 		padding: 16em 0 13em 0;
 		background-attachment: fixed;
-		background-image: url("images/overlay.png"), url("https://source.unsplash.com/zTPTV_L9ZVU/1280x720");
+		background-image: 
+                linear-gradient(
+                    rgba(0, 0, 0, 0.45), 
+                    rgba(0, 0, 0, 0.45)
+                ),
+                url("https://source.unsplash.com/zTPTV_L9ZVU/1280x720");
 		background-position: center top;
 		background-size: cover;
 		line-height: 1.75;
