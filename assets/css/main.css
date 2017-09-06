@@ -84,6 +84,10 @@
 	.container {
 		width: 80em;
 	}
+    
+    body.single .container {
+        width:70em;
+    }
 
 	@media screen and (max-width: 1680px) {
 
@@ -105,8 +109,8 @@
 			width: 20em;
 		}
 
-		.container {
-			width: 80em;
+		.container, body.single .container {
+			width: 75em;
 		}
 
 	}
@@ -131,8 +135,8 @@
 			width: 16.25em;
 		}
 
-		.container {
-			width: 65em;
+		.container, body.single .container {
+			width:65em;
 		}
 
 	}
@@ -157,7 +161,7 @@
 			width: 22.5%;
 		}
 
-		.container {
+		.container, body.single .container {
 			width: 90%;
 		}
 
@@ -183,7 +187,7 @@
 			width: 22.5%;
 		}
 
-		.container {
+		.container, body.single .container {
 			width: 90% !important;
 		}
 
@@ -209,7 +213,7 @@
 			width: 22.5%;
 		}
 
-		.container {
+		.container, body.single .container {
 			width: 90% !important;
 		}
 
@@ -1608,11 +1612,20 @@
 		line-height: 2em;
 	}
 
+    body.single .container p {
+        font-size:1.1em;
+    }
+
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 12pt;
 			}
+            
+            body.single .container p {
+                font-size:1.15em;
+                line-height: 120%em;
+            }
 
 		}
 
@@ -1621,6 +1634,10 @@
 			body, input, select, textarea {
 				font-size: 11pt;
 			}
+            body.single .container p {
+                font-size:1.15em;
+                line-height: 115%em;
+            }
 
 		}
 
@@ -1629,6 +1646,10 @@
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
+            body.single .container p {
+                font-size:1em;
+                line-height: 100%em;
+            }
 
 		}
 
