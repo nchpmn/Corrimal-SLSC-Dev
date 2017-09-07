@@ -31,10 +31,12 @@
 			</footer>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+        <?php echo js(array(
+            'assets/js/jquery.min.js',
+            'assets/js/skel.min.js',
+            'assets/js/util.js',
+            'assets/js/main.js',
+        )) ?>
 
 	</body>
 </html>
