@@ -1,19 +1,27 @@
 <?php snippet('header') ?>
 
-  <main class="main" role="main">
+<!-- Main -->
 
-    <header class="wrap">
-      <h1><?= $page->title()->html() ?></h1>
-      <div class="intro text">
-        <?= $page->intro()->kirbytext() ?>
-      </div>
-      <hr />
-    </header>
-      
-    <div class="text wrap">
-      <?= $page->text()->kirbytext() ?>
+<section id="main" class="wrapper">
+    <div class="container">
+        <header class="major special">
+            <h2><?= $page->title() ?></h2>
+            <?php if($page->subtitle()!=""): ?>
+            <p><?= $page->subtitle() ?></p>
+            <?php endif ?>
+        </header>
+        
+        <?php if($page->featimage()->toFile()): ?>
+        <div class="image fit">
+            <?= $page->featimage()->toFile()->crop(788,281); ?>
+        </div>
+        <?php endif ?>
+        
+        <?php echo $page->text()->kirbytext() ?>
+        
     </div>
+</section>
 
-  </main>
+<!-- End Main -->
 
 <?php snippet('footer') ?>

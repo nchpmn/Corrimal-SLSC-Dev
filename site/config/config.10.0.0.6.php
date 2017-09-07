@@ -34,3 +34,9 @@ c::set('panel.install', true);
 
 /* Set Markdown Extra as default editor */
 c::set('markdown.extra', true);
+
+/* Enable Debus Mode */
+c::set('debug', true);
+
+/* Disable Caching on Development */
+c::set('cache',false);

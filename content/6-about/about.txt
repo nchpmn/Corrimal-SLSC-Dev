@@ -6,4 +6,22 @@ Intro: This page demonstrates how you can utilize subpages to store content, lik
 
 ----
 
-Text: The approach of using subpages for storing content sections of a page can also be very useful for creating a (link: https://getkirby.com/docs/cookbook/one-pager text: one-page) website, featuring very different kinds of content.
+Text: 
+
+The appr**oach of using sub**pages for storing content sections of a page can also be very useful for creating a (link: https://getkirby.com/docs/cookbook/one-pager text: one-page) website, featuring very different[^1] kinds of content.
+
+Anyway, and other things.
+
+[^1]: Apparently, anyway
+
+----
+
+Subtitle: Our Club, Our History
+
+----
+
+Image: 
+
+----
+
+Featimage: seven-mile-beach-grand-1.jpg
