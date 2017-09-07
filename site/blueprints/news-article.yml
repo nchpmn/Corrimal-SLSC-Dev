@@ -1,0 +1,23 @@
+title: News Article
+
+pages: false
+
+fields:
+  title:
+    label: Title
+    type:  text
+  text:
+    label: Text
+    type:  markdown
+  tags:
+    label: Article Category
+    type: tags
+    lower: true
+    index: siblings
+  date:
+    label: Date
+    type: date
+    default: today
+  image:
+    label: Featured Image
+    type: image

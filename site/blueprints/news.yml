@@ -1,0 +1,11 @@
+title: News Parent
+
+pages: news-article
+
+fields:
+  title:
+    label: Title
+    type:  text
+  text:
+    label: Short Blurb
+    type:  markdown
