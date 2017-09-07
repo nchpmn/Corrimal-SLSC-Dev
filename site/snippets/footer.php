@@ -1,18 +1,40 @@
-  <footer class="footer cf" role="contentinfo">
-    <div class="wrap wide">
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+                    <h2>Our Sponsors</h2>
+                    <div class="row">
+                        <?php foreach($site->homePage()->sponsors()->toStructure() as $item): ?>
+                        <div class="2u 3u(medium) 4u(small)">
+                            <div class="image fit captioned">
+                                <?php if($item->link()!=""): ?>
+                                    <a href="<?= $item->link() ?>">
+                                    <?= $item->logo()->toFile()->resize(140); ?>
+                                    <h3><?= $item->name() ?></h3>
+                                    </a>
+                                <?php else: ?>
+                                    <?= $item->logo()->toFile()->resize(200); ?>
+                                    <h3><?= $item->name() ?></h3>
+                                <?php endif ?>
+                            </div>
+                        </div>
+                        <?php endforeach ?>
+                    </div>
+                    
+					<ul class="copyright">
+						<li>&copy; Corrimal Surf Life Saving Club</li>
+                        <li>Design: <a href="http://nchp.mn">Nathan Chapman</a></li>
+                        <li>Made with <a href="http://getkirby.com">Kirby</a> and &hearts;</li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Terms of Use</a></li>
+					</ul>
+				</div>
+			</footer>
 
-      <p class="footer-copyright"><?php
-        // Parse Kirbytext to support dynamic year,
-        // but remove all HTML like paragraph tags:
-        echo html::decode($site->copyright()->kirbytext())
-      ?></p>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-      <p class="footer-madewithkirby">
-        <a href="http://getkirby.com/made-with-kirby-and-love">Made with Kirby and <b class="heart">♥</b></a>
-      </p>
-    
-    </div>
-  </footer>
-
-</body>
+	</body>
 </html>

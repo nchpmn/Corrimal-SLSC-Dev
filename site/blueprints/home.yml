@@ -14,3 +14,19 @@ fields:
   text:
     label: Text
     type:  textarea
+  
+  sponsors:
+    label: Sponsors List
+    type: structure
+    style: table
+    fields:
+      name:
+        label: Sponsor Name
+        type: text
+      link:
+        label: URL
+        type: url
+      logo:
+        label: Logo Image
+        type: image
+        

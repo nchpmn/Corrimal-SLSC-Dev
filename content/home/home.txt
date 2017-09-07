@@ -18,3 +18,32 @@ Text:
 - (link: http://getkirby.com/support text: Get in contact) if you need support.
 
 **Have fun with Kirby!**
+
+----
+
+Sponsors: 
+
+- 
+  name: "O'Brien's Service Centre"
+  link: ""
+  logo: obriens-1.png
+- 
+  name: DHL
+  link: http://dhl.com.au
+  logo: dhl.png
+- 
+  name: Ebb And Tide
+  link: ""
+  logo: ebbandtide.png
+- 
+  name: Bellambi Hotel
+  link: ""
+  logo: bellambihotel.png
+- 
+  name: Aspiration Graphics
+  link: ""
+  logo: aspirationgraphics.png
+- 
+  name: Surfpit Corrimal
+  link: ""
+  logo: Surfpit-Logo-Black-e1476491392508.png
