@@ -33,5 +33,5 @@ Icon
 # Static Generated Site
 # ---------------------
 
-/static
-/static/*
+/staging
+/staging/*

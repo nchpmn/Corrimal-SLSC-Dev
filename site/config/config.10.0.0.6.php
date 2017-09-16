@@ -41,7 +41,21 @@ c::set('debug', true);
 /* Disable Caching on Development */
 c::set('cache',false);
 
-/* Enable StaticBuilder Plugin - https://github.com/fvsch/kirby-staticbuilder */
 
-// Enable Kirby StaticBuilder locally
+/*
+
+---------------------------------------
+StaticBuilder Configuation
+https://github.com/fvsch/kirby-staticbuilder
+---------------------------------------
+
+*/
+
+/* Enable Kirby StaticBuilder locally */
 c::set('staticbuilder', true);
+
+c::set([
+    'staticbuilder'            => true,
+    'staticbuilder.extension'  => '/index.html',
+    'staticbuilder.withfiles' => true
+]);
