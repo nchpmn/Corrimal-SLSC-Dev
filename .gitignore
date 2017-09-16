@@ -33,4 +33,5 @@ Icon
 # Static Generated Site
 # ---------------------
 
+/static
 /static/*
