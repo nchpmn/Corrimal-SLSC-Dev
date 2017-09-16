@@ -8,7 +8,7 @@ fields:
     type:  text
   text:
     label: Text
-    type:  markdown
+    type:  textarea
   tags:
     label: Article Category
     type: tags

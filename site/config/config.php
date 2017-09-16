@@ -31,3 +31,6 @@ of the system, please check out http://getkirby.com/docs/advanced/options
 
 /* Set Markdown Extra as default editor */
 c::set('markdown.extra', true);
+
+/* https://github.com/medienbaecker/kirby-enhanced-textarea */
+c::set('textarea.autocomplete', true);

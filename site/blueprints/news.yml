@@ -8,4 +8,4 @@ fields:
     type:  text
   text:
     label: Short Blurb
-    type:  markdown
+    type:  textarea
