@@ -40,3 +40,8 @@ c::set('debug', true);
 
 /* Disable Caching on Development */
 c::set('cache',false);
+
+/* Enable StaticBuilder Plugin - https://github.com/fvsch/kirby-staticbuilder */
+
+// Enable Kirby StaticBuilder locally
+c::set('staticbuilder', true);
