@@ -29,3 +29,8 @@ Icon
 
 /assets/avatars/*
 !/assets/avatars/index.html
+
+# Static Generated Site
+# ---------------------
+
+/static/*
