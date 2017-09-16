@@ -30,8 +30,8 @@ Icon
 /assets/avatars/*
 !/assets/avatars/index.html
 
-# Static Generated Site
-# ---------------------
+# Staging
+# ---------------
 
-/staging
-/staging/*
+/_staging
+/_staging/*
