@@ -54,8 +54,12 @@ https://github.com/fvsch/kirby-staticbuilder
 /* Enable Kirby StaticBuilder locally */
 c::set('staticbuilder', true);
 
+/* Copy page files */
 c::set([
     'staticbuilder'            => true,
     'staticbuilder.extension'  => '/index.html',
     'staticbuilder.withfiles' => true
 ]);
+
+// If hosting in a subfolder
+c::set('staticbuilder.baseurl', './');
