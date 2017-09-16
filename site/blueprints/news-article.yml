@@ -18,6 +18,6 @@ fields:
     label: Date
     type: date
     default: today
-  image:
+  featimage:
     label: Featured Image
     type: image
