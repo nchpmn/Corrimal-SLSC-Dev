@@ -58,7 +58,7 @@ fields:
     type: select
     options: siblings
     width: 1/2
-  newsarticlesnumb:
+  newslimit:
     label: Number of Articles
     type: number
     width: 1/2

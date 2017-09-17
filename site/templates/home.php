@@ -44,5 +44,52 @@
         </div>
     </div>
 </section>
+        
+<!-- Three -->
+<section id="three" class="wrapper style1">
+    <div class="container">
+        <header class="major special">
+            <h2>Latest News</h2>
+        </header>
+        <div class="feature-grid">
+            <?php $articles = page($page->newscategory())->children()->visible()->flip()->limit($page->newslimit()->int()) ?>
+            
+            <?php foreach($articles as $article): ?>
+                <div class="feature">
+                    <?php if($article->featimage()->toFile()): ?>
+                        <div class="image rounded"><?= $article->featimage()->toFile()->crop(300,300); ?></div>
+                    <?php else: ?>
+                        <div class="image rounded"><?= page($page->newscategory())->genericicon()->toFile()->crop(300,300); ?></div>
+                    <?php endif ?>
+                    <div class="content">
+                        <header>
+                            <h4><a href="<?= $article->url() ?>"><?= $article->title() ?></a></h4>
+                            <p><?= $article->tags() ?> &mdash; <?= $article->date('j M Y') ?></p>
+                        </header>
+                        <p><?= $article->text()->excerpt(20, 'words') ?> <a href="<?= $article->url() ?>">More &rarr;</a></p>
+                    </div>
+                </div>
+            <?php endforeach ?>
+            
 
+
+        
+        </div>
+        
+        
+        
+    </div>
+</section>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
 <?php snippet('footer') ?>

@@ -47,11 +47,11 @@ Quicklinks:
 
 ----
 
-Newscategory: 
+Newscategory: news
 
 ----
 
-Newsarticlesnumb: 
+Newsarticlesnumb: 456
 
 ----
 
@@ -68,3 +68,7 @@ Contactbuttons:
 ----
 
 Contactimage: 
+
+----
+
+Newslimit: 4
