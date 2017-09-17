@@ -11,22 +11,24 @@
         
         <div class="feature-grid">
         
-        <?php foreach($page->children()->visible()->flip()->paginate(10) as $article): ?>
-            <div class="feature">
-                <?php if($article->featimage()->toFile()): ?>
-                    <div class="image rounded"><?= $article->featimage()->toFile()->crop(400,400); ?></div>
-                <?php else: ?>
-                    <div class="image rounded"><?= $page->genericicon()->toFile()->crop(400,400); ?></div>
-                <?php endif ?>
-                <div class="content">
-                    <header>
-                        <h4><a href="<?= $article->url() ?>"><?= $article->title() ?></a></h4>
-                        <p><?= $article->tags() ?> &mdash; <?= $article->date('j M Y') ?></p>
-                    </header>
-                    <p><?= $article->text()->excerpt(20, 'words') ?> <a href="<?= $article->url() ?>">More &rarr;</a></p>
+            <?php $articles = $page->children()->visible()->flip()->paginate(10) ?>
+
+            <?php foreach($articles as $article): ?>
+                <div class="feature">
+                    <?php if($article->featimage()->toFile()): ?>
+                        <div class="image rounded"><?= $article->featimage()->toFile()->crop(400,400); ?></div>
+                    <?php else: ?>
+                        <div class="image rounded"><?= $page->genericicon()->toFile()->crop(400,400); ?></div>
+                    <?php endif ?>
+                    <div class="content">
+                        <header>
+                            <h4><a href="<?= $article->url() ?>"><?= $article->title() ?></a></h4>
+                            <p><?= $article->tags() ?> &mdash; <?= $article->date('j M Y') ?></p>
+                        </header>
+                        <p><?= $article->text()->excerpt(20, 'words') ?> <a href="<?= $article->url() ?>">More &rarr;</a></p>
+                    </div>
                 </div>
-            </div>
-        <?php endforeach ?>
+            <?php endforeach ?>
         
         </div>
     </div>    
