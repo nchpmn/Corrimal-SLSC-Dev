@@ -9,3 +9,6 @@ fields:
   text:
     label: Short Blurb
     type:  textarea
+  genericicon:
+    label: Generic News Icon
+    type: image

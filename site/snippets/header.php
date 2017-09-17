@@ -12,8 +12,8 @@
 
 </head>
     
-<?php if($page->isHomePage()): ?>
-    <body class="landing">
+<?php if($bodyclass): ?>
+    <body class="<?= $bodyclass ?>">
 <?php else: ?>
     <body class="single">
 <?php endif ?>
