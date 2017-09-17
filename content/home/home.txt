@@ -2,48 +2,52 @@ Title: Home
 
 ----
 
-Intro: Yay! If you are seeing this, the installation of Kirby worked. :-)
+Bannertitle: Corrimal
 
 ----
 
-Text: 
-
-## Get started
-
-- Go to the (link: panel text: Panel) to give Kirby's admin interface a try
-- Check out the (link: http://getkirby.com/docs text: docs) and start building your own site
-- Follow (twitter: @getkirby) on Twitter for updates
-- Visit the (link: http://forum.getkirby.com text: forum) to connect with other Kirby users
-- Sign up to (link: https://getkirby.com/#kosmos text: Kirby Kosmos), our monthly newsletter
-- (link: http://getkirby.com/support text: Get in contact) if you need support.
-
-**Have fun with Kirby!**
+Bannersubtitle: Surf Life Saving Club
 
 ----
 
-Sponsors: 
+Bannerimage: dji_0022.jpg
 
-- 
-  name: "O'Brien's Service Centre"
-  link: ""
-  logo: obriens-1.png
-- 
-  name: DHL
-  link: http://dhl.com.au
-  logo: dhl.png
-- 
-  name: Ebb And Tide
-  link: ""
-  logo: ebbandtide.png
-- 
-  name: Bellambi Hotel
-  link: ""
-  logo: bellambihotel.png
-- 
-  name: Aspiration Graphics
-  link: ""
-  logo: aspirationgraphics.png
-- 
-  name: Surfpit Corrimal
-  link: ""
-  logo: Surfpit-Logo-Black-e1476491392508.png
+----
+
+Introtitle: 
+
+----
+
+Introsubtitle: 
+
+----
+
+Introblurb: 
+
+----
+
+Quicklinks: 
+
+----
+
+Newscategory: 
+
+----
+
+Newsarticlesnumb: 
+
+----
+
+Contacttitle: 
+
+----
+
+Contactsubtitle: 
+
+----
+
+Contactbuttons: 
+
+----
+
+Contactimage: 

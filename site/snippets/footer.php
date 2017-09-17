@@ -3,7 +3,7 @@
 				<div class="container">
                     <h2>Our Sponsors</h2>
                     <div class="row">
-                        <?php foreach($site->homePage()->sponsors()->toStructure() as $item): ?>
+                        <?php foreach($site->sponsors()->toStructure() as $item): ?>
                         <div class="2u 3u(medium) 4u(small)">
                             <div class="image fit captioned">
                                 <?php if($item->link()!=""): ?>

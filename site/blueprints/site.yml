@@ -18,3 +18,22 @@ fields:
   copyright:
     label: Copyright
     type:  textarea
+
+  
+  sponsorlist:
+    label: Sponsors List
+    type: headline
+  sponsors:
+    label: Sponsors List
+    type: structure
+    style: table
+    fields:
+      name:
+        label: Sponsor Name
+        type: text
+      link:
+        label: URL
+        type: url
+      logo:
+        label: Logo Image
+        type: image

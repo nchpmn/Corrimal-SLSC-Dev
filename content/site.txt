@@ -11,3 +11,36 @@ Description: Corrimal Surf Life Saving Club
 ----
 
 Copyright: © Corrimal Surf Life Saving Club
+
+----
+
+Sponsors: 
+
+- 
+  name: "O'Brien's Service Centre"
+  link: ""
+  logo: obriens-1.png
+- 
+  name: DHL
+  link: http://dhl.com.au
+  logo: dhl.png
+- 
+  name: Ebb And Tide
+  link: ""
+  logo: ebbandtide.png
+- 
+  name: Bellambi Hotel
+  link: ""
+  logo: bellambihotel.png
+- 
+  name: Aspiration Graphics
+  link: ""
+  logo: aspirationgraphics.png
+- 
+  name: Surfpit Corrimal
+  link: ""
+  logo: Surfpit-Logo-Black-e1476491392508.png
+- 
+  name: East Corrimal Butchery
+  link: ""
+  logo: eastcorrimalbutchery.png

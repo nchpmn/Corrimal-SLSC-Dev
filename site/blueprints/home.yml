@@ -6,27 +6,87 @@ fields:
   title:
     label: Title
     type:  text
+  banner:
+    label: Banner
+    type: headline
+  bannertitle:
+    label: Title
+    type: text
+    width: 1/2
+  bannersubtitle:
+    label: Subtitle
+    type: text
+    width: 1/2
+  bannerimage:
+    label: Background Image
+    type: image
 
-  intro:
-    label: Intro
+  introduction:
+    label: Introduction Blurb
+    type: headline
+  introtitle:
+    label: Main Title
+    type:  text
+  introsubtitle:
+    label: Subtitle
+    type:  text
+  introblurb:
+    label: Blurb
     type:  textarea
-
-  text:
-    label: Text
-    type:  textarea
-  
-  sponsors:
-    label: Sponsors List
+    
+  quicklinksheader:
+    label: Quick Links
+    type: headline
+  quicklinks:
+    label: Page Links
     type: structure
-    style: table
+    limit: 4
     fields:
-      name:
-        label: Sponsor Name
+      pagename:
+        label: Page
+        type: select
+        options: siblings
+
+  newsheader:
+    label: News
+    type: headline
+  newscategory:
+    label: News Category
+    type: select
+    options: siblings
+    width: 1/2
+  newsarticlesnumb:
+    label: Number of Articles
+    type: number
+    width: 1/2
+    
+  contactheader:
+    label: Contact Section
+    type: headline
+  contacttitle:
+    label: Title
+    type: text
+  contactsubtitle:
+    label: Subtitle
+    type: text
+  contactbuttons:
+    label: Buttons
+    type: structure
+    limit: 2
+    fields:
+      buttonname:
+        label: Name
         type: text
-      link:
-        label: URL
-        type: url
-      logo:
-        label: Logo Image
-        type: image
-        
+      buttonlink:
+        label: Link
+        type: select
+        options: siblings
+      buttonfeatured:
+        label: Featured
+        type: radio
+        options:
+          featured: "Yes"
+          notfeatured: "No"
+  contactimage:
+    label: Background Image
+    type: image

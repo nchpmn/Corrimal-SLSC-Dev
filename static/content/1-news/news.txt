@@ -3,3 +3,7 @@ Title: News
 ----
 
 Text: What's new at Corrimal SLSC
+
+----
+
+Genericicon: news-icon.png

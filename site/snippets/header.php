@@ -19,8 +19,12 @@
 <?php endif ?>
     
 <!-- Header -->
-    <header id="header">
-        <h1><a href="<?= $site->url() ?>"><strong>Corrimal</strong> SLSC</a></h1>
+        <?php if($bodyclass == "landing"): ?>
+            <header id="header" class="alt">
+        <?php else: ?>
+            <header id="header">
+            <h1><a href="<?= $site->url() ?>"><strong>Corrimal</strong> SLSC</a></h1>
+        <?php endif ?>
         <nav id="nav">
             <ul>
                 <?php foreach($site->pages()->visible() as $item): ?>

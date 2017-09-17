@@ -31,6 +31,22 @@
             <?php endforeach ?>
         
         </div>
+        
+        <?php if($articles->pagination()->hasPages()): ?>
+        <nav class="pagination row">
+
+          <?php if($articles->pagination()->hasNextPage()): ?>
+          <a class="6u" href="<?php echo $articles->pagination()->nextPageURL() ?>">&lsaquo; older posts</a>
+          <?php endif ?>
+
+          <?php if($articles->pagination()->hasPrevPage()): ?>
+          <a class="6u" href="<?php echo $articles->pagination()->prevPageURL() ?>">newer posts &rsaquo;</a>
+          <?php endif ?>
+
+        </nav>
+        <?php endif ?>
+
+        
     </div>    
     
 </section>
