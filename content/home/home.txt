@@ -14,19 +14,36 @@ Bannerimage: dji_0022.jpg
 
 ----
 
-Introtitle: 
+Introtitle: Saving Lives for 106 Years
 
 ----
 
-Introsubtitle: 
+Introsubtitle: Lifesaving, Competing, Something Else
 
 ----
 
 Introblurb: 
 
+Surf lifesaving originated in Australia in 1907 in response to drownings at local beaches in Sydney. Such groups became necessary following the relaxing of laws prohibiting daylight bathing on Australian beaches. Volunteer groups of men were trained in life saving methods and patrolled the beaches as lifesavers looking after public safety.
+
+The original surf life saving club is a matter of contention between the Bronte and Bondi beach clubs in Sydney. Bronte Surf Lifesaving Club claims to be the “First Surf Club in the World since 1903”.
+
 ----
 
 Quicklinks: 
+
+- 
+  pagename: lifesaving
+  thumbnail: photo-1470998290285-c08d7ad32e3a.jpg
+- 
+  pagename: competition
+  thumbnail: 3735494-3x2-940x627.jpg
+- 
+  pagename: nippers
+  thumbnail: tug-of-war.jpg
+- 
+  pagename: facilities
+  thumbnail: hall-hire-2.jpg
 
 ----
 

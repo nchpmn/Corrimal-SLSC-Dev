@@ -46,6 +46,9 @@ fields:
         label: Page
         type: select
         options: siblings
+      thumbnail:
+        label: Thumbnail
+        type: image
 
   newsheader:
     label: News
