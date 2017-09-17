@@ -2016,10 +2016,12 @@
 
 			.feature-grid .feature .content {
 				width: 60%;
+                max-height:12em;
+                margin-bottom:4em;
 			}
 
 			.feature-grid .feature .image {
-				width: 30%;
+				width: 20%;
 			}
 
 				.feature-grid .feature .image img {
