@@ -12,3 +12,16 @@ fields:
   genericicon:
     label: Generic News Icon
     type: image
+    
+  paginationheader:
+    label: Pagination Settings
+    type: headline
+  pagination:
+    label: Enable Pagination
+    type: checkbox
+    text: Split archive over multiple pages
+    width: 1/2
+  paginationlimit:
+    label: Articles per Page
+    type: number
+    width: 1/2

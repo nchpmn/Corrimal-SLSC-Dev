@@ -11,7 +11,12 @@
         
         <div class="feature-grid">
         
-            <?php $articles = $page->children()->visible()->flip()->paginate(10) ?>
+            <?php
+            if($page->pagination()->bool()):
+                $articles = $page->children()->visible()->flip()->paginate($page->paginationlimit()->int());
+            else:
+                $articles = $page->children()->visible()->flip();
+            endif ?>
 
             <?php foreach($articles as $article): ?>
                 <div class="feature">
@@ -31,8 +36,8 @@
             <?php endforeach ?>
         
         </div>
-        
-        <?php if($articles->pagination()->hasPages()): ?>
+                
+        <?php if($page->pagination()->bool() && $articles->pagination()->hasPages()): ?>
         <nav class="pagination row">
 
           <?php if($articles->pagination()->hasNextPage()): ?>
