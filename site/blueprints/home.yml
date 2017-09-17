@@ -75,7 +75,8 @@ fields:
   contactbuttons:
     label: Buttons
     type: structure
-    limit: 2
+    limit: 3
+    style: table
     fields:
       buttonname:
         label: Name

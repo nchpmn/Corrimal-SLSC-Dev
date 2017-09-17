@@ -55,19 +55,28 @@ Newsarticlesnumb: 456
 
 ----
 
-Contacttitle: 
+Contacttitle: Get In Touch
 
 ----
 
-Contactsubtitle: 
+Contactsubtitle: And a subtitle, to boot!
 
 ----
 
 Contactbuttons: 
 
+- 
+  buttonname: Join the Club
+  buttonlink: lifesaving
+  buttonfeatured: featured
+- 
+  buttonname: Contact Us
+  buttonlink: contact
+  buttonfeatured: notfeatured
+
 ----
 
-Contactimage: 
+Contactimage: jeremy-bishop-293927.jpg
 
 ----
 

@@ -70,18 +70,31 @@
                     </div>
                 </div>
             <?php endforeach ?>
-            
-
-
-        
         </div>
-        
-        
-        
     </div>
 </section>
 
-        
+<!-- Four -->
+<?php if($page->bannerimage()->toFile()): ?>
+    <section id="four" class="wrapper style3 special" style="background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)),url('<?= $page->contactimage()->toFile()->crop(1920)->url(); ?>');">
+<?php else: ?>
+    <section id="four" class="wrapper style3 special" style="background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)),url('https://source.unsplash.com/iftBhUFfecE/1200x720');">
+<?php endif ?>
+    <div class="container">
+        <header class="major">
+            <h2><?= $page->contacttitle() ?></h2>
+            <p><?= $page->contactsubtitle() ?></p>
+        </header>
+        <ul class="actions">
+        <?php foreach($page->contactbuttons()->toStructure() as $button): ?>
+            <li><a href="<?= $site->page($button->buttonlink())->url() ?>" class="button big
+                <?php if($button->buttonfeatured() == "featured"): ?>
+                   special
+                <?php endif ?>"><?= $button->buttonname() ?></a></li>
+        <?php endforeach ?>
+        </ul>
+    </div>
+</section>
         
         
         
